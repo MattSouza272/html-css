@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+.Logo{
+    display: inline-flex;
+    align-items: center;
+
+}
+h1{
+    font-size: 40px;
+}
+p{
+    text-align: justify;
+}
+body{
+    background-color: black;
+}
+main{
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 3%;
+    box-shadow: 2px 2px 5px rgba(94, 94, 94, 0.815);
+}

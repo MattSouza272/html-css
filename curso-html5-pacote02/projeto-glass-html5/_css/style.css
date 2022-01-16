@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fontpadrao';
+    src: url(/_fonts/bubblegum-sans-regular.otf);
+}
+
+@font-face {
+    font-family: 'computer';
+    src: url(/_fonts/computer-font.ttf);
+}
+
+:root{
+    --font-destaque: 'fontpadrao', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #cccccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.principal{
+    max-width: 1150px;
+    min-width: 350px;
+    background-color: white;
+    margin: auto;
+    padding: 20px;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.301);
+}
+
+nav{
+    text-align: right;
+    margin: -20px 0px 0px 0px;
+    padding: 0;
+}
+
+nav a{
+    background-color: rgba(172, 172, 172, 0.473);
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: rgb(148, 148, 148)
+}
+
+header > h1{
+    color: rgb(116, 116, 116);
+    font-family: var(--font-destaque);
+}
+
+header > p{
+    color: rgba(128, 128, 128, 0.726);
+}
+
+.titulo h2{
+    color: rgb(116, 116, 116);
+}
+
+.titulo > p{
+    color: rgba(128, 128, 128, 0.726);
+}
+
+#data{
+    text-align: right;
+    color: rgb(49, 49, 49);
+}
+
+main p{
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+h3{
+    color: rgb(116, 116, 116);
+    background-color: rgba(128, 128, 128, 0.24);
+    padding: 0px 5px;
+    margin: 5px;
+}
+
+table{
+    background-color: rgb(94, 94, 94);
+    padding: 10px;
+    height: 300px;
+    width: 600px;
+    text-align: center;
+}
+
+th{
+    display: table-header;
+}
+
+td{
+    display: block;
+    background-color: rgb(177, 177, 177);
+
+}
+
+video{
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: -15px;
+}
