@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --font-destaque: 'Passion One', cursive;
+    --font-padrao: 'Sriracha', cursive;
+}
+
+body{
+    background-color: white;
+    color: white;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 53px;
+}
+
+header h1{
+    font-family: var(--font-destaque);
+    font-size: 8em;
+    font-weight: normal;
+    text-transform: unset;
+}
+
+header p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-bottom: 120px;
+}
+
+.cordel{
+    font-family: var(--font-padrao);
+    font-size: 3em;
+    color: black;
+    margin: 20px;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.textocordel{
+    background-color: rgba(0, 0, 0, 0.445);
+    width: fit-content;
+    padding: 10px;
+}
+
+.textocordel p{
+    line-height: 2em;
+}
+
+div#s2{
+    background-image: url('imagens/background001.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    box-shadow: inset 1px 1px 10px 4px rgba(0, 0, 0, 0.438);
+    color: white;
+}
+
+div#s4{
+    background-image: url('imagens/background002.jpg');
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px;
+    padding-left: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    box-shadow: inset 1px 1px 10px 4px rgba(0, 0, 0, 0.438);
+    color: white;
+}
+
+div#s5{
+    margin-bottom: 80px;
+}
+
+footer{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
